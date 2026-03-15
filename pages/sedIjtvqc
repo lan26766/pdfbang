@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下载中心 - PDF百宝箱</title>
+    <meta name="description" content="PDF百宝箱下载中心，提供免费版和专业版下载，支持Windows、Mac和Linux操作系统。">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a8617245e46b70291228077b348f82e3";
+      var s = document.getElementsByTagName("script")[0];  
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</head>
+<body>
+    <!-- 粒子背景容器 -->
+    <div id="particles-js"></div>
+
+    <!-- 导航栏 -->
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="../index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <span class="logo-text">PDF百宝箱</span>
+                </a>
+                
+                <nav class="nav-links">
+                    <a href="../index.html" class="nav-link">首页</a>
+                    <a href="features.html" class="nav-link">功能</a>
+                    <a href="download.html" class="nav-link active">下载</a>
+                    <a href="../index.html#testimonials" class="nav-link">用户评价</a>
+                    <a href="../index.html#contact" class="nav-link">联系我们</a>
+                </nav>
+                
+                <div class="nav-actions">
+                    <a href="download.html" class="btn btn-primary">立即下载</a>
+                    <button class="menu-toggle" id="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 移动端菜单 -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <button class="close-menu" id="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <nav class="mobile-nav-links">
+                <a href="../index.html" class="mobile-nav-link">首页</a>
+                <a href="features.html" class="mobile-nav-link">功能</a>
+                <a href="download.html" class="mobile-nav-link">下载</a>
+                <a href="../index.html#testimonials" class="mobile-nav-link">用户评价</a>
+                <a href="../index.html#contact" class="mobile-nav-link">联系我们</a>
+            </nav>
+            <div class="mobile-nav-actions">
+                <a href="download.html" class="btn btn-primary">立即下载</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="gradient-text">下载中心</span>
+            </h1>
+            <p class="page-description">
+                选择适合您的PDF百宝箱版本，开始享受高效便捷的PDF处理体验
+            </p>
+        </div>
+    </section>
+
+    <!-- 版本比较 -->
+    <section class="version-comparison">
+        <div class="container">
+            <h2 class="section-title">版本比较</h2>
+            <div class="comparison-grid">
+                <!-- 免费版 -->
+                <div class="version-card">
+                    <div class="version-header">
+                        <h3 class="version-title">免费版</h3>
+                        <div class="version-price">
+                            <span class="price">¥0</span>
+                            <span class="price-period">永久免费</span>
+                        </div>
+                    </div>
+                    <div class="version-features">
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> PDF合并（最多3个文件）</li>
+                            <li><i class="fas fa-check"></i> PDF分割（最多10页）</li>
+                            <li><i class="fas fa-check"></i> 基础PDF压缩</li>
+                            <li><i class="fas fa-check"></i> PDF转图片（最多5页）</li>
+                            <li><i class="fas fa-check"></i> 图片转PDF（最多5张）</li>
+                            <li><i class="fas fa-times"></i> PDF加密/解密</li>
+                            <li><i class="fas fa-times"></i> PDF转Word/Excel</li>
+                            <li><i class="fas fa-times"></i> Word/Excel转PDF</li>
+                            <li><i class="fas fa-times"></i> 批量处理</li>
+                            <li><i class="fas fa-times"></i> 技术支持</li>
+                        </ul>
+                    </div>
+                    <div class="version-actions">
+                        <a href="#" class="btn btn-secondary btn-lg">
