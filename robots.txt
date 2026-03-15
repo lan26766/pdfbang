@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /*.pdf$
+
+Sitemap: https://www.pdfbang.com/sitemap.xml
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
